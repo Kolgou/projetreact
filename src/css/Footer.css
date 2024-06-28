@@ -1,0 +1,177 @@
+.footer{
+    background-color: #eee;
+}
+
+.info{
+    padding-top: 5vw;
+}
+
+.Doe, .site-link, .last-real, .last-article{
+    color: black;
+    justify-content: start;
+    font-size: 20px;
+}
+
+.coordonates{
+    font-size: 4vw;
+} 
+
+.pages-link, .real-link, .blog-link{
+    font-size: 10px;
+    list-style-type: ">";
+    padding-left: 5px;
+    color: #0d6efd;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    background-color: #444;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-weight: bold;
+}
+
+.button-top{
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border: none;
+    font: bold;
+    color: white;
+    font-size: 1vw;
+    width: 5vw;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.button-top:active{
+    background-color: #298eff;
+    border-radius: 5px;
+    border: none;
+    font: bold;
+    color: white;
+    font-size: 1vw;
+    width: 5vw;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 768px)
+    {
+        .footer{
+            width: 100%;
+        }
+
+        .info{
+            padding-top: 4vw;
+        }
+
+        .Doe, .site-link, .last-real, .last-article{
+            font-size: 17px;
+            margin-top: 10px;
+        }
+
+        .coordonates, .pages-link, .real-link, .blog-link{
+            font-size: 14px;
+        }
+
+        .sm-logo{
+            width: 30px;
+            height: 30px;
+        }
+
+        .copyright{
+            background-color: #444;
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            padding-top: 0.5vw;
+            padding-bottom: 0.5vw;
+            font-weight: bold;
+            margin-top: 3vw;
+        }
+
+        #reseaux-s .r-s-m{
+            padding-left: 15px;
+        }
+
+        .info-jd{
+            list-style-type: none;
+            margin-left: -20px;
+        }
+
+        .pages-link{
+            margin-left: -15px;
+        }
+
+        .real-link{
+            margin-left: -15px;
+        }
+
+        .blog-link{
+            margin-left: -15px;
+        }
+}
+
+@media screen and (min-width: 1200px)
+    {
+        .footer{
+            width: 100%;
+        }
+
+        .info{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-jd{
+            list-style-type: none;
+            margin-left: -30px;
+            font-size: 15px;
+        }
+
+        .Doe, .site-link, .last-real, .last-article{
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .pages-link, .real-link, .blog-link{
+            font-size: 15px;
+            margin-left: -15px;
+        }
+
+        #reseaux-s .r-s-m{
+            padding-left: 25px;
+        }
+
+        .sm-logo{
+            width: 40px;
+            height: 40px;
+        }
+
+        .copyright{
+            background-color: #444;
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            padding-top: 0.5vw;
+            padding-bottom: 0.5vw;
+            font-weight: bold;
+            margin-top: 3vw;
+        }
+}

@@ -1,0 +1,113 @@
+.realisations-title{
+    color: black;
+    font-weight: 600;
+}
+
+.realisations-intro{
+    text-align: center;
+}
+
+.subtitles-realisations{
+    font-size: 4vw;
+}
+
+.blue-line{
+    width: 70px;
+}
+
+.card{
+    margin: auto;
+    margin-top: 3vw;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.card-text, .card-footer{
+    font-size: 3vw;
+}
+
+.realisations-img{
+    width: auto;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.realisations-list{
+    margin-bottom: 3vw;
+}
+
+.card-body .btn-r{
+    background-color: white;
+    border: #4C4CFF 1px solid;
+    border-radius: 7px;
+    color: blue;
+    height: 35px;
+    width: 60px;
+}
+
+.plcm-card-body-r{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .card-title{
+        font-size: 25px;
+    }
+    
+    .card-text, .card-footer{
+        font-size: 13px;
+    }
+
+    .realisations-title{
+        color: black;
+        font-size: 28px;
+    }
+    
+    .subtitles-realisations{
+        font-size: 21px;
+    }
+
+    .subtitles-realisations{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .card-body .btn-r{
+        background-color: white;
+        border: #4C4CFF 1px solid;
+        border-radius: 7px;
+        color: blue;
+        height: 35px;
+        width: 60px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+    .card-title{
+        font-size: 2vw;
+    }
+    
+    .card-text, .card-footer{
+        font-size: 1vw;
+    }
+
+    .realisations-title{
+        color: black;
+        font-size: 3vw;
+    }
+    
+    .subtitles-realisations{
+        font-size: 25px;
+    }
+    
+}

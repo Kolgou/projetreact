@@ -1,0 +1,61 @@
+header{
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username h1{
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+    .page-title{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+
+    .username{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 5vw;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .page-title{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 4vw;
+    }
+
+    .username{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 4vw;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
